@@ -1,0 +1,19 @@
+.page-main {
+  @include clearfix;
+}
+.page-main__wrapper {
+  position: relative;
+  left: -192px;
+
+  float: left;
+  width: 50%;
+  height: 879px;
+
+  background: url("../img/men.jpg") no-repeat;
+}
+.page-main__services {
+  width: 50%;
+
+  float: right;
+  padding-top: 100px;
+}
