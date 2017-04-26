@@ -429,6 +429,11 @@ body {
   margin: 0 auto;
   padding: 0 10px; }
 
+.main-container {
+  width: 1520px;
+  margin: 0 auto;
+  padding: 0 10px; }
+
 img {
   max-width: 100%;
   height: auto; }
@@ -483,9 +488,9 @@ img {
   text-align: center;
   text-decoration: none;
   color: #1D466B;
-  background-color: #EDCEA7; }
+  background-color: #edcea7; }
   .page-footer__tel:hover {
-    background-color: #FEECD4;
+    background-color: #feecd4;
     transition: ease-in-out .25s; }
   .page-footer__tel::before {
     position: absolute;
@@ -521,7 +526,7 @@ img {
     top: 45px;
     height: 4px;
     width: 42px;
-    background: #EDCEA7; }
+    background: #edcea7; }
 
 .page-header {
   background-color: #1D466B; }
@@ -554,8 +559,8 @@ img {
   font-family: "Cera Greek", Arial;
   font-size: 12px;
   line-height: 14px;
-  font-weight: bold;
-  color: #EDCEA7;
+  font-weight: 700;
+  color: #edcea7;
   text-decoration: none; }
   .page-header__tel::before {
     position: absolute;
@@ -569,24 +574,24 @@ img {
 .page-header__span {
   font-size: 12px;
   line-height: 14px;
-  font-weight: bold; }
+  font-weight: 400; }
 
 .page-header__call {
   float: left;
   width: 395px;
   margin: 0;
   margin-left: 25px;
-  color: #EDCEA7; }
+  color: #edcea7; }
 
 .page-header__location {
+  position: relative;
   float: right;
   width: 242px;
   padding-bottom: 10px;
   margin-right: 20px;
-  position: relative;
   font-size: 12px;
   line-height: 14px;
-  color: #EDCEA7; }
+  color: #edcea7; }
   .page-header__location::before {
     position: absolute;
     content: "";
@@ -617,16 +622,16 @@ img {
 
 .page-main__wrapper {
   position: relative;
-  left: -242px;
+  left: -192px;
+  float: left;
   width: 960px;
   height: 879px;
-  background: url("../img/men.jpg") no-repeat;
-  background-position: left; }
+  background: url("../img/men.jpg") no-repeat; }
 
 .page-main__services {
-  float: right;
   position: relative;
-  right: -625px;
+  left: -150px;
+  float: right;
   padding-top: 100px; }
 
 .partners__link {
@@ -648,36 +653,37 @@ img {
 
 .services__title {
   position: relative;
-  width: 215px;
+  width: 235px;
   margin: 0;
   padding-bottom: 25px;
   color: #1D466B;
   font-size: 28px;
-  font-weight: bold;
-  letter-spacing: 1px;
   line-height: 34px;
-  text-align: center; }
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase; }
   .services__title::after {
     position: absolute;
     content: "";
-    left: 0;
+    left: 10px;
     top: 50px;
-    width: 100px;
+    width: 75px;
     height: 4px;
     background: #1D466B; }
 
 .services__text {
   width: 446px;
-  color: #1D466B;
   font-family: "Cera Greek";
   font-size: 16px;
   letter-spacing: 1px;
   line-height: 19px;
-  text-align: center; }
+  text-align: left;
+  color: #1D466B; }
 
 .social-icons__title {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: 1px;
   line-height: 41px;
   text-transform: uppercase; }
@@ -712,7 +718,7 @@ img {
 
 .working-hours__title {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: 1px;
   line-height: 41px;
   text-transform: uppercase; }
@@ -723,7 +729,7 @@ img {
 
 .contacts__title {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: 1px;
   line-height: 41px;
   text-transform: uppercase; }
