@@ -1,0 +1,33 @@
+.services__title {
+  position: relative;
+  width: 215px;
+  margin: 0;
+  padding-bottom: 25px;
+
+  color: #1D466B;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 34px;
+  text-align: center;
+
+  &::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50px;
+    width: 100px;
+    height: 4px;
+    background: #1D466B;
+  }
+}
+
+.services__text {
+  width: 446px;
+  color: #1D466B;
+  font-family: "Cera Greek";
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 19px;
+  text-align: center;
+}

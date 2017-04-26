@@ -1,0 +1,72 @@
+.page-footer {
+  padding-top: 58px;
+  color: #ffffff;
+  background-color: $primary-bg-color;
+}
+
+.page-footer__tel {
+  position: relative;
+
+  display: block;
+  width: 450px;
+  margin: 0 auto;
+  padding: 22px 0;
+
+  font-family: "Cera Greek";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  color: #1D466B;
+  background-color: #EDCEA7;
+
+  &:hover {
+    background-color: #FEECD4;
+    transition: ease-in-out .25s;
+  }
+
+  &::before {
+    position: absolute;
+    content: "";
+    left: 95px;
+    top: 20px;
+
+    height: 24px;
+    width: 24px;
+    background: url("../img/icons/Phone-Icon.svg") no-repeat;
+  }
+}
+.page-footer__partners {
+  width: 515px;
+  margin: 0 auto;
+  padding-top: 207px;
+  padding-bottom: 110px;
+}
+.page-footer__wrapp {
+  display: flex;
+
+  margin-left: 280px;
+  padding-bottom: 90px;
+}
+.page-footer__contacts,
+.page-footer__working-hours  {
+  padding-right: 200px;
+}
+.page-footer__title {
+  position: relative;
+  padding-bottom: 10px;
+
+  &::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 45px;
+
+    height: 4px;
+    width: 42px;
+    background: #EDCEA7;
+  }
+}

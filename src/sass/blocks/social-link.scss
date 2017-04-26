@@ -1,0 +1,42 @@
+.social-link {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 125px;
+  padding-left: 45px;
+
+  font-family: "Cera Greek";
+  font-size: 14px;
+  line-height: 32px;
+
+  color: #ffffff;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.5;
+    transition: ease-in-out .25s;
+  }
+
+  &::before {
+    position: absolute;
+    content: "";
+    left: 5px;
+    top: 5px;
+
+    width: 22px;
+    height: 23px;
+
+
+  }
+  &--fb::before {
+    background: url("../img/icons/fb.svg") no-repeat;
+  }
+  &--tw::before {
+    background: url("../img/icons/tw.svg") no-repeat;
+  }
+  &--yt::before {
+    background: url("../img/icons/yt.svg") no-repeat;
+  }
+}

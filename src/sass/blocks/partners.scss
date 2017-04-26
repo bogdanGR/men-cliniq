@@ -1,0 +1,22 @@
+.partners__link {
+  padding-right:  50px;
+
+  &:last-child {
+    padding-right: 0;
+  }
+}
+.partners__wrapper {
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: "";
+    left: -80%;
+    top: 200px;
+
+    height: 1px;
+    width: 250%;
+    background: #979797;
+    opacity: 0.43;
+  }
+}

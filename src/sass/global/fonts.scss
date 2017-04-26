@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Cera Greek";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Cera Greek"),
+  local("Cera Greek-Regular"),
+  url("../fonts/cera-greek-regular.woff2") format("woff2"),
+  url("../fonts/cera-greek-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Cera Greek";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Cera-Greek-Bold"),
+  url("../fonts/cera-greek-bold.woff2") format("woff2"),
+  url("../fonts/cera-greek-bold.woff") format("woff");
+}
