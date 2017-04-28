@@ -442,7 +442,7 @@ img {
   display: flex;
   margin: 0;
   padding: 0;
-  padding-left: 20px;
+  padding-left: 60px;
   list-style: none; }
 
 .menu__item {
@@ -559,9 +559,10 @@ img {
   font-family: "cera_greek";
   font-size: 12px;
   line-height: 14px;
-  font-weight: 700;
+  font-weight: bold;
   color: #edcea7;
-  text-decoration: none; }
+  text-decoration: none;
+  text-transform: uppercase; }
   .page-header__tel::before {
     position: absolute;
     content: "";
@@ -609,7 +610,7 @@ img {
 
 .page-header__menu {
   float: right;
-  width: 1017px;
+  width: 1060px;
   padding-top: 10px; }
 
 .page-main::after {
@@ -754,7 +755,7 @@ img {
   .services__text {
     width: 320px; } }
 
-@media (max-width: 1180px) {
+@media (max-width: 1160px) {
 
   .services__text {
     width: 300px; } }
